@@ -1,3 +1,7 @@
+///<reference path='reference'/>
+
+import Foo = require('foo');
+
 var moo = console.log('hello, secondary reporting');
 
-export = moo;
+export var blargh = Foo.Flim.x;

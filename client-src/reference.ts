@@ -1,4 +1,5 @@
-/// <reference path="../foo.ts"/>
+/// <reference path="../foo"/>
+declare module 'foo' { export = Foo; }
 
 //grunt-start
 /// <reference path="main.ts" />
