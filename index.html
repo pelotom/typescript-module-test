@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var require = {
+  baseUrl: '.',
+  paths: {
+    foo: 'foo'
+  },
+  shim: {
+    foo: { exports: 'Foo' }
+  }
+}
+</script>
+<script data-main='client-build/amdloader' src='node_modules/requirejs/require.js' charset='utf-8'></script>
+</body>
+</html>

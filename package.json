@@ -1,0 +1,11 @@
+{
+  "name": "foo",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-ts": "~1.4.4"
+  },
+  "dependencies": {
+    "requirejs": "~2.1.9"
+  }
+}
