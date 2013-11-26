@@ -1,6 +1,9 @@
 /// <reference path='../foo'/>
 
-// import Foo = require('foo');
+declare module 'foo' { export = Foo; }
+
+import Foo = require('foo');
+import Meh = require('./secondary');
 
 console.log(new Foo.Bar().fizzle(Foo.Flim.x + 9));
 
